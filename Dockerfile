@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/bike-rent.jar bike-rent.jar
+ADD target/docker-spring-boot-hello.jar docker-spring-boot-hello.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "bike-rent.jar"]
+ENTRYPOINT ["java", "-jar", "docker-spring-boot-hello.jar"]
