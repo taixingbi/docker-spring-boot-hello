@@ -1,1 +1,1 @@
-docker build -f Dockerfile -t docker-spring-boot-hello .
+docker build  -t taixingbi/docker-spring-boot-hello .
